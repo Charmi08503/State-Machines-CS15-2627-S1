@@ -5,7 +5,7 @@ while True:
         print("You are Iron Man")
 
         while True:
-            event = input("What do you do?")
+            event = input("What do you do? Choose the shield or the hammer.")
             event = event.lower()
 
             if event == "shield" or event == "hammer":
@@ -21,7 +21,7 @@ while True:
         print("You are Captain America")
 
         while True:
-            event = input("What do you do?")
+            event = input("What do you do? Choose the web or the armor.")
             event = event.lower()
 
             if event == "web" or event == "armor":
@@ -37,7 +37,7 @@ while True:
         print("You are Thor.")
 
         while True:
-            event = input("What do you do?")
+            event = input("What do you do? Choose the shield or the web.")
             event = event.lower()
 
             if event == "shield" or event == "web":
@@ -53,7 +53,7 @@ while True:
         print("You are Spider-Man.")
 
         while True:
-            event = input("What do you do?")
+            event = input("What do you do? Choose the armor or the hammer.")
             event = event.lower()
 
             if event == "armor" or event == "hammer":
